@@ -4,3 +4,6 @@ build/
 .env
 .DS_Store
 .vscode/
+venv312/
+models/
+Bucharest_Hist_Temp.csv

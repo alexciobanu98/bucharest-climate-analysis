@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Forecaster from './pages/Forecaster';
 import Analysis from './pages/Analysis';
 import About from './pages/About';
+import MLTrainer from './pages/MLTrainer';
 import { styled } from '@mui/material/styles';
 
 const theme = createTheme({
@@ -63,6 +64,7 @@ function App() {
               <NavLink to="/forecaster" style={{ color: '#1a237e' }}>Forecaster</NavLink>
               <NavLink to="/analysis" style={{ color: '#1a237e' }}>Analysis</NavLink>
               <NavLink to="/about" style={{ color: '#1a237e' }}>About</NavLink>
+              <NavLink to="/ml-trainer" style={{ color: '#1a237e' }}>ML Trainer</NavLink>
             </Toolbar>
           </AppBar>
 
@@ -85,6 +87,7 @@ function App() {
                 <Route path="/forecaster" element={<Forecaster />} />
                 <Route path="/analysis" element={<Analysis />} />
                 <Route path="/about" element={<About />} />
+                <Route path="/ml-trainer" element={<MLTrainer />} />
               </Routes>
             </Box>
           </Container>
